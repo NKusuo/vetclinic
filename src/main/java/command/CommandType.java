@@ -1,0 +1,16 @@
+package command;
+
+public enum CommandType {
+    CREATE_PATIENT,
+    UPDATE_FULL_NAME,
+    DELETE_PATIENT,
+    CREATE_DOCTOR,
+    CREATE_APPOINTMENT,
+    UPDATE_STATUS,
+    ALL_APPOINTMENTS,
+    ALL_PATIENTS,
+
+    UNDEFINED,
+
+    EXIT
+}
